@@ -18,6 +18,25 @@ mt19937_64 RNG(chrono::steady_clock::now().time_since_epoch().count());
 
 void Solve()
 {
+    int n;
+    cin >> n;
+    vector<int> arr(n);
+    int sum = 0;
+    for(int i=0;i<n;i++){
+        cin >> arr[i];
+        sum+=arr[i];
+    }
+    int rem = (sum)/2;
+    int ans =(sum - rem);
+    sort(arr.rbegin() , arr.rend());
+    for(int i=0;i<n;i++){
+        if(rem<=0){
+            break;
+        }
+        ans++;
+        rem-=arr[i];
+    }
+    cout << ans << endl;
 
 }
 
