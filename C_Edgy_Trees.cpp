@@ -30,7 +30,7 @@ void dfs(int n){
         }
     }
 }
-
+//so here the main function that we have to see and iright now i a, finding some difficunt with it but will get use to it and some time
 void Solve(){
     int n , k; cin >> n >> k;
 
@@ -65,5 +65,46 @@ int32_t main(){
     cin.tie(nullptr);
 
     Solve();
+    return 0;
+}
+/*
+ok so the problem was about just eliminating the black edges and then just count the group of the rend edges and solve the question further
+*/
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <deque>
+#include <random>
+#include <chrono>
+#include <unordered_map>
+#include <map>
+#include <stack>
+using namespace std;
+
+#define int long long
+#define INF (int)1e18
+#define all(x) (x).begin(), (x).end()
+#define sz(x) (int)(x).size()
+
+mt19937_64 RNG(chrono::steady_clock::now().time_since_epoch().count());
+
+void Solve()
+{
+
+}
+
+int32_t main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t = 1;
+    cin >> t;
+    while (t--)
+    {
+        Solve();
+    }
+
     return 0;
 }
