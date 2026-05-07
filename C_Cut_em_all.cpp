@@ -139,3 +139,8 @@ int32_t main()
 
     return 0;
 }
+
+/*
+the correct approach os to with the size of the subtree
+but the degree logic is wrong because degree of the node doen't tell you about the grandchild and so on ...
+*/
