@@ -6,6 +6,7 @@
 
 # Allow C++ source files
 !*.cpp
+!*.java
 
 # (Optional) Allow .gitignore itself
 !.gitignore
