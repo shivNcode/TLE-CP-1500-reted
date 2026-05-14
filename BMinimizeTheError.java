@@ -18,8 +18,7 @@ public class BMinimizeTheError {
             a[i] = sc.nextInt();
         }
 
-        PriorityQueue<Integer> pq =
-                new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
         for (int i = 0; i < n; i++) {
             b[i] = sc.nextInt();
